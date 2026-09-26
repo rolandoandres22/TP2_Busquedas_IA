@@ -1,8 +1,8 @@
-# TP2 - Búsqueda de Estados en JavaScript
+# TP2 - Inteligencia Artificial 
 
-## Inteligencia Artificial - Universidad Siglo 21
+##  Universidad Siglo 21
 
-Implementación ejecutable de dos métodos de búsqueda para el TP2:
+Implementación ejecutable de los métodos:
 
 - **BFS (Breadth-First Search)**: búsqueda exhaustiva/no informada.
 - **A\***: búsqueda heurística.
@@ -23,7 +23,7 @@ La situación plantea una línea industrial de montaje de motores donde una
 pequeña desviación puede impedir el montaje correcto de una pieza.
 
 Para el TP2 se simplifica el problema y se representa solamente el
-desplazamiento horizontal. **No se implementan cámaras ni sensores físicos.**
+desplazamiento horizontal.
 
 La información del relieve y de las coordenadas de contacto pertenece al
 escenario real. En este prototipo esa información se representa de forma
@@ -84,7 +84,7 @@ movimiento horizontal.
 ## 4. Estructura
 
 ```text
-TP2_Busqueda_IA_JavaScript/
+TP2_Busqueda_IA/
 ├── bfs.js
 ├── astar.js
 ├── package.json
@@ -103,8 +103,13 @@ Instalar Node.js.
 Comprobar:
 
 ```bash
-node --version
 npm --version
+```
+
+Instalar:
+
+```bash
+npm install
 ```
 
 ---
@@ -319,4 +324,3 @@ o:
 npm run bfs
 npm run astar
 ```
-
