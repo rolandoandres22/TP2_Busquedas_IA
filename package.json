@@ -1,0 +1,11 @@
+{
+  "name": "tp2-busqueda-ia-javascript",
+  "version": "1.0.0",
+  "description": "Implementación de BFS y A* para el TP2 de Inteligencia Artificial",
+  "main": "bfs.js",
+  "scripts": {
+    "bfs": "node bfs.js",
+    "astar": "node astar.js"
+  },
+  "license": "MIT"
+}
